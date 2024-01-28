@@ -10,7 +10,7 @@ POC - Prova de conceito
 Qual o menor custo que eu posso ter para entender se a ideia funciona ou não funciona? Quais as provas?
 
 MVP - Produto Viavel Minimo
-Sistema focado e simples para um resolver um determinado problema
+Sistema focado e simples para um resolver um determinado problema, pode ser aplicado para novas features
 
 prettier < 3.0 - não ignora os arquivos do .gitignore
 Para resolver isso criar o arquivo .prettierignore seguindo doc: https://prettier.io/docs/en/ignore
@@ -35,3 +35,7 @@ Infelizmente é mais fácil começar algo complexo devido a entropia do universo
 
 A principal característica de um software bom é: modificável!
 O foco que todos deveriam ter. A potência que um time tem de mudar um código no curto, médio e longo prazo.
+Exemplo: infraestrutura PCI
+
+Link para gerar estrutura de pastas
+https://ascii-tree-generator.com/
