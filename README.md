@@ -22,7 +22,7 @@ https://vercel.com/docs/functions/configuring-functions/region
 "regions": ["iad1"]
 }
 
-Resumo do allbertuu do curso.dev
+Comentário do colega de curso allbertuu
 
 Foco na simplicidade
 Lembrar sobre a teoria McDonald's nessa hora é bom. Afinal, a solução por mais bonita, precisa funcionar e ser modificável.
@@ -39,3 +39,8 @@ Exemplo: infraestrutura PCI
 
 Link para gerar estrutura de pastas
 https://ascii-tree-generator.com/
+
+Comentário do colega de curso AlvaroVargas
+Caso alguém mais esteja curioso de pq conseguimos rodar npm test sem o run, eu acredito que seja pq npm test é um comando pré-definido que nos estamos sobrescrevendo.
+
+Se voce rodar só um npm run pra ver os scripts disponiveis
