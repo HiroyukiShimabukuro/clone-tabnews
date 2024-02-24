@@ -44,3 +44,6 @@ Comentário do colega de curso AlvaroVargas
 Caso alguém mais esteja curioso de pq conseguimos rodar npm test sem o run, eu acredito que seja pq npm test é um comando pré-definido que nos estamos sobrescrevendo.
 
 Se voce rodar só um npm run pra ver os scripts disponiveis
+
+Git - remover dados sensiveis
+https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
