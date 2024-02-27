@@ -1,4 +1,4 @@
-import { Client } from "pg";
+import { Client, Pool } from "pg";
 
 async function query(queryObject) {
   const client = new Client({
@@ -15,6 +15,21 @@ async function query(queryObject) {
   return result;
 }
 
+async function pool(){
+  const pool = new Pool({
+    host: process.env.POSTGRES_HOST,
+    user: process.env.POSTGRES_USER,
+    database: process.env.POSTGRES_DB,
+    password: process.env.POSTGRES_PASSWORD,
+    max: 20
+  });
+
+  pool.connect();
+
+  return pool;
+}
+
 export default {
   query: query,
+  pool: pool,
 };
